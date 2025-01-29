@@ -8,7 +8,7 @@ import sklearn
 import sklearn.cluster
 import scipy
 import logging
-from image_classifier_comparison.constants import CATEGORIES, TRAINING_DATA_FOLDER_PATH, TESTING_DATA_FOLDER_PATH
+from image_classification_comparison.constants import CATEGORIES, TRAINING_DATA_FOLDER_PATH, TESTING_DATA_FOLDER_PATH
 
 
 PATCH_SIZE = 8

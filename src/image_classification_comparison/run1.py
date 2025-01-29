@@ -5,7 +5,7 @@ import numpy as np
 import PIL.Image as Pillow
 import json
 import logging
-from image_classifier_comparison.constants import CATEGORIES, TRAINING_DATA_FOLDER_PATH, TESTING_DATA_FOLDER_PATH
+from image_classification_comparison.constants import CATEGORIES, TRAINING_DATA_FOLDER_PATH, TESTING_DATA_FOLDER_PATH
 
 
 TRAINING_VECTORS_FOLDER_PATH = os.path.join("data", "processed", "run1", "training")

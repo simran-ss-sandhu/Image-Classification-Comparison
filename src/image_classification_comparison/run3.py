@@ -5,8 +5,8 @@ import sklearn
 import shutil
 import concurrent.futures
 import logging
-import image_classifier_comparison.GIST as GIST
-from image_classifier_comparison.constants import TRAINING_DATA_FOLDER_PATH, TESTING_DATA_FOLDER_PATH
+import image_classification_comparison.GIST as GIST
+from image_classification_comparison.constants import TRAINING_DATA_FOLDER_PATH, TESTING_DATA_FOLDER_PATH
 
 TRAINING_FEATURES_AND_LABELS_FILE_PATH = os.path.join("data", "processed", "run3", 'training_features_and_labels.csv')
 TESTING_FEATURES_FILE_PATH = os.path.join("data", "processed", "run3", 'testing_features.csv')
