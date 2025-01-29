@@ -4,5 +4,8 @@
 # Project metadata folder
 *.egg-info/
 
+# Python Virtual Environment folder
+venv/
+
 # Processed dataset images
 data/processed/
