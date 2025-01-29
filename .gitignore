@@ -4,5 +4,5 @@
 # Project metadata folder
 *.egg-info/
 
-# Project data files
-data/
+# Processed dataset images
+data/processed/
